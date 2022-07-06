@@ -29,3 +29,24 @@ img{
 h1{
   text-align: center;
 }
+.floatn{
+  clear: both;
+}
+.foot{
+  clear: both;
+  text-align: center;
+  border: solid lightpink;
+  border-width: thick;
+  color: palevioletred;
+}
+a:link{
+  color: palevioletred;
+  text-decoration: underline;
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+a:visited{
+  color: white;
+}
