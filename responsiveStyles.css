@@ -1,0 +1,54 @@
+.col4{
+position: static;
+
+}
+.col1{
+  width: 48%;
+  float: right;
+  padding: 5px 5px 0px 5px;
+  background-color: aliceblue;
+  border: solid blue;
+}
+.col2{
+  width: 48%;
+  padding: 0px 0px 165px 0px;
+    margin: 25px 5px 5px 5px;
+ border: solid white;
+ background-color: aliceblue;
+}
+ul{
+  margin: 39px 0px 0px 0px;
+  font-size: 20px;
+  line-height: 35px;
+  list-style-type: circle;
+}
+h1{
+  margin: 15px;
+ padding-top: 15px;
+ padding-bottom: 10px;
+}
+h2{
+  text-align: center;
+}
+.col6, .col7{
+  background-color: aliceblue;
+  border: solid white;
+}
+@media screen and (min-width: 780px) {
+.col6, .col7{
+  width: 47%;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+}
+.col3, .col4, .col5 {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  background-color: aliceblue;
+  border: solid white;
+}
+.floatn{
+ clear: both;
+}
+}

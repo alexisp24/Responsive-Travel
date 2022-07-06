@@ -1,0 +1,31 @@
+/*
+ Author: Alexis Pearson
+Date: 7-4-2022
+
+Filename: styles.css
+*/
+html{
+  background-color: linen;
+}
+h1{
+  color: palevioletred;
+font-family: sans-serif, serif;
+}
+h2{
+  font-family: monospace, serif;
+  color: darkslategrey;
+  background-color: snow;
+}
+p{
+font-size: 1.25em
+}
+
+.img2, .img3, .img4{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+h1{
+  text-align: center;
+}
